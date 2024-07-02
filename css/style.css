@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style: none !important;
+    outline: none !important;
+    scroll-behavior: smooth;
+
+}
+body{
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+img{
+    width: 100%;
+}
+:root {
+    --main-font1: "Open Sans", sans-serif;
+    --main-font2: Poppins, sans-serif;
+}
+.navbar{
+    background-color: #1E202B !important;
+}
+.navbar-brand{
+    font-size: 16px;
+    font-family: var(--main-font1);
+    font-weight: 700;
+    color: #fff ;
+    
+}
+.collapse .nav-item .active{
+    border-radius: 20px;
+    border: 2px solid #009ad8 ;
+    color: #009ad8 !important;
+    padding: 5px 20px;
+}
+.collapse .nav-item .nav-link{
+    border-radius: 20px;
+    padding: 5px 20px;
+    transition: .6s all;
+}
+.collapse .nav-item .nav-link:hover{
+    border: 2px solid #009ad8 ;
+    color: #009ad8 !important;
+    /* padding: 5px 20px; */
+    
+}
+.navbar-brand p{
+    font-size: 10px;
+    font-family: var(--main-font1);
+    font-weight: 700;
+    color: #fff ;
+
+}
+
+.container-fluid div{
+    width: 70px;
+    height: 40px;
+}
+.collapse ul li a{
+    font-family: var(--main-font1);
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff !important;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+main{
+    background-image: url("../assigment\ img/banner.png");
+    background-size:cover ;
+    padding: 70px 0;
+    min-height: 350px;
+}
+.find-location {
+    position: relative;
+    margin-bottom: 70px;
+}
+main .search{
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    position: relative;
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+}
+main .find{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: none;
+    background: #009ad8;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.forecast-head{
+    background: #262936b6;
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+    /* width: 100%; */
+    border-radius: 10px 10px 0 0;
+}
+.forecast-container .forecast .forecast-content {
+    background-color: #32354400;
+    padding: 50px 20px 10px;
+    text-align: center;
+    border-radius: 0 0 10px 10px ;
+    color: #fff;
+}
+.forecast-container .forecast.today .degree .number {
+    font-size: 4.4rem;
+    color: #fff;
+}
+.icon{
+    width: 80px;
+    height: 80px;
+    
+}
+
+.custom {
+    color: #009ad8;
+    margin: 20px 0;
+}
+.today span img{
+    width: 20px;
+    height: 20px;
+}
+.site-footer {
+    background: #262936;
+    padding: 50px 0;
+    
+}
+.site-footer .container .col-md-8{
+    position: relative;
+    margin-bottom: 10px;
+}
+.site-footer .search{
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    position: relative;
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+}
+.site-footer .subscribe{
+    position: absolute;
+    top: 5px;
+    right: 18px;
+    bottom: 5px;
+    border: none;
+    background: #009ad8;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+}
+.site-footer .social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+}
+p{
+    color: #fff;
+}
+
+.hu,.wi,.dw{
+    width: 20px;
+}
+
+.forecast-container .forecast{
+    background-color: #323544;
+}
+.forecast-container .forecast:nth-child(even) {
+    background-color: #262936;
+}
+.nextMaxDegree, .nextTomMaxDegree{
+    font-size: 2.4rem;
+    color: #fff;
+}
+.nextMinDegree , .nextTomMinDegree{
+    font-size: 1.4rem;
+    color: #fff !important;
+}
+.nextIcon , .nextTomIcon{
+    width: 50px;
+}
+.nextCustom ,.nextTomCustom{
+    color: #009ad8;
+}

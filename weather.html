@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="icon"  href="./770b805d5c99c7931366c2e84e88f251.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-5">
+            <div class="container-fluid">
+                <div class="d-flex ms-5">
+                    <img src="./assigment img/logo.png" alt="" >
+                    <a class="navbar-brand ms-2" href="#">Weather<p>tagline goes here</p></a>
+                </div>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item mx-4">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="#">Live cameras</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link " >Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <form action="" class="find-location mx-auto my-3">
+                    <input type="search" class="search " placeholder="Find your location.." id="search">
+                    <input type="button" value="Find" class="find" id="find">
+            </form>
+            <section class="forecast-table my-5">
+                <div class="container">
+                    <div class="row forecast-container gx-0">
+                        <div class="col-md-4 forecast today">
+                            <div class="forecast-head d-flex justify-content-between ">
+                                <div class="day">Sunday</div>
+                                <div class="date">
+                                    <span class="dayNum">10</span> 
+                                    <span class="month"> Septemper</span>
+                                </div>
+                            </div>
+                            <div class="forecast-content text-start">
+                                <div class="location">cairo</div>
+                                <div class="degree d-flex justify-content-center align-content-center">
+                                    <div class="number fw-bolder">32<sup>o</sup>C</div>
+                                    <img class="icon" src="" alt="">
+                                </div>
+                                <div class="custom">sunny</div>
+                                <img class="hu me-1" src="./assigment img/icon-umberella.png" alt=""><span class="me-2 humidity"> 20%</span>
+                                <img class="wi me-1" src="./assigment img/icon-wind.png" alt=""><span class="me-2 wind"> 20%</span>
+                                <img class="dw me-1" src="./assigment img/icon-compass.png" alt=""><span class="me-2 directionWind"> 20%</span>
+                            </div>
+                            
+            
+                        </div>
+                        <div class="col-md-4 forecast ">
+                            <div class="forecast-head rounded-0">
+                                <div class="nextday"></div>
+                            </div>
+                            <div class="forecast-content">
+                                <img class="nextIcon " src="" alt=""></img>
+                                <div><span class="nextMaxDegree fw-bold"></span></div>
+                                <div><span class="nextMinDegree text-muted"></span></div>
+                                <small class="nextCustom"></small>
+                            </div>
+                            <div class="custom"></div>
+                        </div>
+                        <div class="col-md-4 forecast">
+                            <div class="forecast-head">
+                                <div class="nextTomday"></div>
+                            </div>
+                            <div class="forecast-content">
+                                <img class="nextTomIcon" src="" alt=""></img>
+                                <div><span class="nextTomMaxDegree fw-bold"></span></div>
+                                <div><span class="nextTomMinDegree text-muted"></span></div>
+                                <small class="nextTomCustom "></small>
+                            </div>
+                            <div class="custom"></div>
+                        </div>
+                    </div>
+                </div>
+            
+            </section>
+        </div>
+    </main>
+    
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-8">
+                    <form action="">
+                        <input type="search" class="search" placeholder="Enter your email to subscribe...">
+                        <input type="button" class="subscribe" value="Subscribe">
+                    </form>
+                </div>
+                <div class="col-md-3 col-md-offset-1 gx-5">
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/indexweather.js"></script>
+</body>
+</html>
